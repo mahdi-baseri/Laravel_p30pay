@@ -1,0 +1,9 @@
+body{
+    background-color: #f4f6f8 !important;
+}
+.gray{
+    background-color: lightgray !important;
+}
+.gray:hover{
+    background-color: gray !important;
+}

@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white !important;
+  text-align: right !important;
+}
+.z-1 {
+  z-index: 1;
+}
+.z-2 {
+  z-index: 2;
+}
+.xl {
+  font-size: xx-large;
+}
+.small {
+  font-size: small;
+}
+.dr {
+  direction: rtl;
+}
+.hover-gray:hover {
+  background-color: #444f59 !important;
+}
+.hover-blue:hover {
+  background-color: #1671cb !important;
+  transition: 1s !important;
+}
+.hover-none:hover {
+  background-color: transparent !important;
+}
+.large {
+  font-size: large;
+}
+.logo-size{
+  font-size: medium;
+}
+.direction {
+  direction: rtl;
+}
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.header {
+  background-color: #282b2e;
+}
+.social-media {
+  margin: 0 40px !important;
+}
+#google-icon {
+  margin-right: 6px;
+}
+#skype-icon {
+  width: 23px;
+  height: 23px;
+}
+.icons-size {
+  width: 25px;
+  height: 25px;
+}
+#phone-icon {
+  padding-left: 10px;
+  border-left: 2px solid #444f59;
+}
+.social-media p {
+  color: white;
+  display: inline;
+}
+/*start date and time */
+.date-time {
+  color: white;
+  margin: 0 20px;
+}
+.date-time p {
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.time {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+/* end date and time */
+/* start navbar */
+#navbar {
+  background-color: #1172d3;
+  direction: rtl;
+}
+#navbar .nav-link {
+  color: white;
+}
+/* start button */
+#button {
+  background-color: #46c83c;
+  color: white;
+  border-radius: 30px;
+}
+#button i {
+  font-size: 22px;
+}
+/* end button */
+/* end navbar */
+/* start widget */
+.widget p {
+  color: #7f7f7f;
+}
+.widget .card {
+  border: none !important;
+
+}
+.widget .card:hover {
+  background-color: #f7f7f7;
+}
+/* end widget */
+/* start paragraph */
+.paragraph {
+  background-color: #f4f6f8;
+}
+/* end paragraph */
+/* start media parent */
+#media-parent {
+  background-image: url("../img/man-station.jpg");
+  background-size: cover;
+  color: white;
+}
+/* end media parent */
+/* start choice */
+.choice {
+  background-image: url(../img/footer_bg.jpg);
+  background-size: cover;
+}
+/* end choice */
+/* start footer */
+.footer {
+  background-image: url(../img/footer-background.jpg);
+  background-size: cover;
+}
+#footer-btn {
+  right: 25px;
+  bottom: 25px;
+}
+/* end footer */
+
+.text-size {
+  font-size: xx-large;
+  width: 86% !important;
+  margin: 0 auto;
+}
+@media screen and (max-width: 700px) {
+  body {
+    text-align: center !important;
+  }
+
+}
+@media screen and (max-width: 992px) {
+  .social-media {
+    margin: 0 auto !important;
+  }
+  .date-time {
+    margin: 0 auto !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .date-time div {
+    margin: 0 auto;
+  }
+ 
+}

@@ -1,0 +1,576 @@
+@extends('layouts.master')
+
+@section('style','index')
+
+@section('content')
+
+    <!-- start slider -->
+    <div class="carousel slide" id="slider" data-ride="carousel">
+        <!-- start indicators -->
+        <ul class="carousel-indicators">
+            <li class="active" data-target="slider" data-slide-to="0"></li>
+            <li data-target="slider" data-slide-to="1"></li>
+        </ul>
+        <!-- end idicators -->
+        <!-- slid show -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img
+                    class="img-fluid d-block mx-auto"
+                    src="img/slider1.png"
+                    alt="slider1"
+                />
+            </div>
+            <div class="carousel-caption">
+                <h4 class="mb-5 border-bottom pb-4">
+                    خرید و فروش تخصصی انواع ارز های رایج در فضای وب
+                </h4>
+            </div>
+            <div class="carousel-item">
+                <img
+                    class="img-fluid d-block mx-auto"
+                    src="img/slider2.png"
+                    alt="slider2"
+                />
+            </div>
+        </div>
+        <!-- end slidshow -->
+        <!-- start controls -->
+        <a href="#slider" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#slider" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <!-- end controls -->
+    </div>
+    <!-- end slider -->
+    <!-- start widget -->
+    <div class="widget row container mx-auto">
+        <div class="card col-xl-3">
+            <a href="page-404.html" class="stretched-link zoom"
+            ><img
+                    class="mx-auto d-block img-fluid my-4"
+                    src="img/bag.svg"
+                    alt="shop-img"
+                    width="150px"
+                    height="150px"
+                /></a>
+            <div class="card-body text-center " >
+                <h4 class="card-title">خرید از سایت</h4>
+                <p class="card-text" style="text-align: center !important;">
+                    لذت خرید آنلاین و بدون دردسر را با ما تجربه کنید
+                </p>
+            </div>
+            <div class="dropdown-divider mb-0"></div>
+        </div>
+        <div class="card col-xl-3">
+            <a href="page-404.html" class="stretched-link zoom"
+            ><img
+                    src="img/computer.svg"
+                    alt="accept-icon"
+                    width="150px"
+                    height="150px"
+                    class="img-fluid mx-auto d-block my-4"
+                /></a>
+            <div class="card-body text-center">
+                <h4 class="card-title">تاییدیه</h4>
+                <p class="card-text" style="text-align: center !important;">
+                    بعد از ارسال مدارک تنها کافیست یک بار از خط ثابت با ما تماس بگیرید
+                </p>
+            </div>
+            <div class="dropdown-divider mb-0"></div>
+
+        </div>
+        <div class="card col-xl-3">
+            <a href="page-404.html" class="stretched-link zoom"
+            ><img
+                    class="my-4 img-fluid d-block mx-auto"
+                    src="img/arrows.svg"
+                    alt="arrows-svg"
+                    width="150px"
+                    height="150px"
+                /></a>
+            <div class="card-body text-center ">
+                <h4 class="card-title">ارسال مدارک</h4>
+                <p class="card-text" style="text-align: center !important;">
+                    برای انجام تمامی سفارشات ارسال مدرک الزامی میباشد و تنها یکبار اخذ
+                    میشود
+                </p>
+            </div>
+            <div class="dropdown-divider mb-0"></div>
+
+        </div>
+        <div class="card col-xl-3">
+            <a href="register.html" class="stretched-link zoom">
+                <img
+                    src="img/user.svg"
+                    alt="person-icon"
+                    width="150px"
+                    height="150px"
+                    class="img-fluid mx-auto d-block my-4"
+                /></a>
+            <div class="card-body text-center" >
+                <h4 class="card-title">عضویت در سایت</h4>
+                <p class="card-text" style="text-align: center !important;">
+                    برای استفاده از تمام خدمات و محصولات سایت عضویت ضروری است
+                </p>
+            </div>
+            <div class="dropdown-divider mb-0"></div>
+
+        </div>
+    </div>
+    <!-- end widget -->
+    <div class="paragraph p-5 shadow">
+        <div class="container">
+            <p class="">
+                مجموعه ی ما با هدف فعالیت در زمینه تجارت الکترونیک بیش از ۹ سال پیش
+                فعالیت خود را آغاز کرد و با بیشتر شدن تحریم های بین المللی و مشکلات
+                وبمستران عزیز تصمیم گرفتیم فعالیت خود را در بازار ایران برای رفع
+                موانع بیشتر کنیم. به همین جهت سایت هایی را در زمینه کسب در آمد
+                آنلاین و اینترنتی،بازاریابی اینترنتی، پرداخت و نقد کردن درآمد های
+                وبمستران از طریق وب مانی ، پرفکت مانی ، بیتکوین ، پی زا و پی پال در
+                ایران ایجاد کردیم. ما با همکاری نیروهای خلاق و متخصص در حوزه برنامه
+                نویسی ، سیستم های مالی آنلاین توانسته ایم بهترین و امن ترین مکان را
+                در این زمینه تولید کرده و ارائه خدمات به صدها کارآفرین، فریلنسر و
+                موسسه را در کارنامه خود ثبت کنیم.
+            </p>
+        </div>
+    </div>
+    <!-- start media -->
+    <div id="media-parent" class="media p-4">
+        <div class="container media">
+            <div class="media-body my-auto">
+                <h3 class="">با خیال آسوده از خدمات ما استفاده کنید</h3>
+                <p class="">
+                    کالاها و خدمات این فروشگاه ، حسب مورد دارای مجوزهای لازم از مراجع
+                    مربوطه میباشد و فعالیت های این سایت تابع قوانین و مقررات جمهوری
+                    اسلامی ایران است .
+                </p>
+            </div>
+            <img src="img/card.svg" alt="card-svg" width="100px" height="100" />
+        </div>
+    </div>
+    <!-- end media -->
+    <div
+        class="carousel slide position-relative"
+        id="comment"
+        data-ride="carousel"
+    >
+        <!-- start indicators -->
+        <ul class="carousel-indicators">
+            <li class="active" data-target="slider" data-slide-to="0"></li>
+            <li data-target="slider" data-slide-to="1"></li>
+        </ul>
+        <!-- end idicators -->
+        <!-- start controls -->
+        <div class="d-flex justify-content-between mt-5 text-size container ">
+            <div class="z-2">
+                <a href="#comment" class="mt-4" data-slide="prev">
+                    <i
+                        class="fa fa-angle-left large text-secondary zoom"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+                <a href="#comment" class="mt-4 ml-3" data-slide="next">
+                    <i
+                        class="fa fa-angle-right large text-secondary zoom"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+            </div>
+            <div class="col my-auto">
+                <div class="dropdown-divider" id=""></div>
+            </div>
+            <div class="d-flex my-auto">
+                <h4>نظرات مشتریان ما</h4>
+                <img
+                    src="img/noun.svg"
+                    alt="noun-svg"
+                    class="img-fluid ml-2"
+                    width="33px"
+                    height="33px"
+                />
+            </div>
+        </div>
+        <!-- end controls -->
+
+        <!-- slid show -->
+        <div class="carousel-inner z-1">
+            <div class="carousel-item active">
+                <!-- start media -->
+                <div class="container">
+                    <div class="media my-5">
+                        <div class="media-body">
+                            <h3 class="">فروش وبمانی</h3>
+                            <p class="">
+                                شخصا وظیفه خودم دونستم تا از شما هم تشکر کنم بابت خدمات خوب
+                                و سریع و صادقانه تان و هم تبریک بگویم بابت سایت زیبا و
+                                قشنگتان موفق و سر بلند باشید
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary stretched-link">
+                                    محمد معین اکبری
+                                </button>
+                            </div>
+                        </div>
+                        <a href="page-404.html">
+                            <img
+                                src="img/media-image.jpg"
+                                alt="media-image"
+                                class="img-fluid ml-3 mt-1 pl-2 border-left"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <!-- end media -->
+            </div>
+            <div class="carousel-item">
+                <!-- start media -->
+                <div class="container">
+                    <div class="media my-5">
+                        <div class="media-body">
+                            <h3 class="">فروش وبمانی</h3>
+                            <p class="">
+                                شخصا وظیفه خودم دونستم تا از شما هم تشکر کنم بابت خدمات خوب
+                                و سریع و صادقانه تان و هم تبریک بگویم بابت سایت زیبا و
+                                قشنگتان موفق و سر بلند باشید
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary stretched-link">
+                                    محمد معین اکبری
+                                </button>
+                            </div>
+                        </div>
+                        <a href="page-404.html">
+                            <img
+                                src="img/media-image.jpg"
+                                alt="media-image"
+                                class="img-fluid ml-3 mt-1 pl-2 border-left"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <!-- end media -->
+            </div>
+        </div>
+        <!-- end slidshow -->
+    </div>
+    <!-- end slider -->
+    <!-- start choice -->
+    <div class="container-fluid d-flex choice mx-auto">
+        <div class="container d-flex row mx-auto">
+            <div class="col-xl-4 py-4 card bg-transparent hover-blue">
+                <div
+                    class="
+                card
+                border
+                py-4
+                px-3
+                m-2
+                bg-transparent
+                text-light
+                mx-auto
+                h-100
+              "
+                >
+                    <a href="page-404.html" class="stretched-link">
+                        <img
+                            src="img/favorite-white.svg"
+                            alt="favorite"
+                            width="40px"
+                            height="40px"
+                            class="img-fluid d-block mx-auto"
+                        />
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title text-center large">
+                            با اطمینان کامل خرید کنید
+                        </h4>
+                        <p class="card-text text-center">
+                            با بیش از 9 سال تجربه شارژ حساب بدون کارمزد انجام تمامی
+                            سفارشات در کمترین زمان ممکن
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 py-4 card bg-transparent hover-blue">
+                <div
+                    class="
+                card
+                border
+                py-4
+                px-3
+                m-2
+                bg-transparent
+                text-light
+                mx-auto
+                h-100
+              "
+                >
+                    <a href="page-404.html" class="stretched-link">
+                        <img
+                            src="img/phone-call.svg"
+                            alt="phone-call-icon"
+                            width="40px"
+                            height="40px"
+                            class="img-fluid d-block mx-auto"
+                        /></a>
+                    <div class="card-body">
+                        <h4 class="card-title text-center large">
+                            پشتیبان حضوری و تلفنی
+                        </h4>
+                        <p class="card-text text-center">
+                            افتخار ما خدمت به شماست ، ما معتقدیم که فروش پایان یک معامله
+                            نیست بلکه شروع یک تعهد است
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 py-4 card bg-transparent hover-blue">
+                <div
+                    class="
+                card
+                border
+                py-4
+                px-3
+                m-2
+                bg-transparent
+                text-light
+                mx-auto
+                h-100
+              "
+                >
+                    <a href="page-404.html" class="stretched-link"
+                    ><img
+                            src="img/checked.svg"
+                            alt="checked-icon"
+                            class="img-fluid d-block mx-auto"
+                            width="40px"
+                            height="40px"
+                        /></a>
+                    <div class="card-body">
+                        <h4 class="card-title text-center large">
+                            تضمین بهترین قیمت خرید و فروش
+                        </h4>
+                        <p class="card-text text-center">
+                            قیمت های ویژه برای مشتریان و اعضای فعال قیمت توافقی برای
+                            معاملات با حجم بالا
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end choice -->
+    <!-- start article -->
+    <div class="carousel slide" data-ride="carousel" id="article">
+        <!-- start indicators -->
+        <ul class="carousel-indicators">
+            <li class="active" data-target="article" data-slide-to="0"></li>
+            <li data-target="article" data-slide-to="1"></li>
+        </ul>
+        <!-- end indicators -->
+        <div class="article-parent my-5">
+            <!-- start controls -->
+            <div class="d-flex justify-content-between text-size container">
+                <div class="z-2">
+                    <a href="#article" class="mt-4" data-slide="prev">
+                        <i
+                            class="fa fa-angle-left large text-secondary zoom"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+                    <a href="#article" class="mt-4 ml-3" data-slide="next">
+                        <i
+                            class="fa fa-angle-right large text-secondary zoom"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+                    <!-- end controls -->
+                </div>
+                <div class="col my-auto">
+                    <div class="dropdown-divider" id=""></div>
+                </div>
+
+                <div class="d-flex">
+                    <h4>آخرین مقالات</h4>
+                    <img
+                        src="img/book-icon.svg"
+                        alt="book-icon"
+                        class="img-fluid ml-2"
+                        width="33px"
+                        height="33px"
+                    />
+                </div>
+            </div>
+        </div>
+        <!--start carousel inner -->
+        <div class="carousel-inner container pb-4">
+            <div class="carousel-item active">
+                <!-- strat article body -->
+                <div class="d-flex flex-row-reverse row">
+                    <div class="media col-xl-4">
+                        <div class="media-body my-auto">
+                            <p class="">...آدرس اینترنتی بانک های جمهوری اسلامی ایران</p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary dr py-0 px-1">
+                                    17 دیماه 1395
+                                </button>
+                            </div>
+                        </div>
+                        <a href="page-404.html" class="fluid m-3 rounded-circle bg-dark"
+                        ><img
+                                src="img/article-right.jpg"
+                                alt="article-right-img"
+                                class="zoom"
+                            /></a>
+                    </div>
+                    <div class="media col-xl-4">
+                        <div class="media-body my-auto">
+                            <p class="">بالا بردن ضرایب امنیتی در بانکداری الکترونیکی</p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary dr py-0 px-1">
+                                    17 دیماه 1395
+                                </button>
+                            </div>
+                        </div>
+                        <a href="page-404.html" class="fluid m-3 rounded-circle bg-dark"
+                        ><img
+                                src="img/article-center.jpg"
+                                alt="article-right-img"
+                                class="zoom"
+                            /></a>
+                    </div>
+                    <div class="media col-xl-4">
+                        <div class="media-body my-auto">
+                            <p class="">پرسش و پاسخ درمورد ویزا کارت های مجازی</p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary dr py-0 px-1">
+                                    17 دیماه 1395
+                                </button>
+                            </div>
+                        </div>
+                        <a href="page-404.html" class="fluid m-3 rounded-circle bg-dark"
+                        ><img
+                                src="img/article-left.jpg"
+                                alt="article-right-img"
+                                class="zoom"
+                            /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- strat article body -->
+                <div class="d-flex flex-row-reverse row">
+                    <div class="media col-xl-4">
+                        <div class="media-body my-auto">
+                            <p class="">...آدرس اینترنتی بانک های جمهوری اسلامی ایران</p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary dr py-0 px-1">
+                                    17 دیماه 1395
+                                </button>
+                            </div>
+                        </div>
+                        <a href="page-404.html" class="fluid m-3 rounded-circle bg-dark"
+                        ><img
+                                src="img/article-right.jpg"
+                                alt="article-right-img"
+                                class="zoom"
+                            /></a>
+                    </div>
+                    <div class="media col-xl-4">
+                        <div class="media-body my-auto">
+                            <p class="">بالا بردن ضرایب امنیتی در بانکداری الکترونیکی</p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary dr py-0 px-1">
+                                    17 دیماه 1395
+                                </button>
+                            </div>
+                        </div>
+                        <a href="page-404.html" class="fluid m-3 rounded-circle bg-dark"
+                        ><img
+                                src="img/article-center.jpg"
+                                alt="article-right-img"
+                                class="zoom"
+                            /></a>
+                    </div>
+                    <div class="media col-xl-4">
+                        <div class="media-body my-auto">
+                            <p class="">پرسش و پاسخ درمورد ویزا کارت های مجازی</p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary dr py-0 px-1">
+                                    17 دیماه 1395
+                                </button>
+                            </div>
+                        </div>
+                        <a href="page-404.html" class="fluid m-3 rounded-circle bg-dark"
+                        ><img
+                                src="img/article-left.jpg"
+                                alt="article-right-img"
+                                class="zoom"
+                            /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end carousel inner -->
+    </div>
+
+    <!-- end article -->
+
+    <!-- start brands -->
+    <div class="d-flex flex-wrap justify-content-center mt-4">
+        <a href="page-404.html" class="zoom-sm"
+        ><img
+                src="img/Perfect_Money-gray.png"
+                alt="Perfect_Money-img"
+                class="img-fluid mt-3 px-4 mb-3 border-right"
+                width="190px"
+                height="50px"
+                onmouseover="this.src='img/Perfect_Money.png';"
+                onmouseout="this.src='img/Perfect_Money-gray.png';"
+            /></a>
+        <a href="page-404.html" class="zoom-sm"
+        ><img
+                src="img/bitcoin.png"
+                alt="bitcoin"
+                class="img-fluid mt-3 px-4 mb-3 border-right"
+                width="190px"
+                height="50px"
+            /></a>
+        <a href="page-404.html" class="zoom-sm"
+        ><img
+                src="img/Visa-gray.png"
+                alt="visa-img"
+                class="img-fluid mt-3 border-right px-4 mb-3"
+                width="160px"
+                height="50px"
+                onmouseover="this.src='img/Visa.png';"
+                onmouseout="this.src='img/Visa-gray.png';"
+            /></a>
+        <a href="page-404.html" class="zoom-sm">
+            <img
+                class="img-fluid mt-3 px-4 mb-3 border-right pt-2"
+                src="img/paypal-gray.png"
+                alt="paypal.jpg"
+                width="190px"
+                height="50px"
+                onmouseover="this.src='img/paypal.png';"
+                onmouseout="this.src='img/paypal-gray.png';"
+            />
+        </a>
+        <a href="page-404.html" class="zoom-sm"
+        ><img
+                src="img/webmoney-gray.png"
+                alt="webmoney.img"
+                class="img-fluid mt-3 px-4 mb-3"
+                width="190px"
+                height="50px"
+                onmouseover="this.src='img/webmoney.png';"
+                onmouseout="this.src='img/webmoney-gray.png';"
+            /></a>
+    </div>
+    <!-- end brands -->
+
+@endsection
