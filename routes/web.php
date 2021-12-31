@@ -36,6 +36,9 @@ Route::get('/page', function () {
 Route::get('/page-404', function () {
     return view('page-404');
 });
+Route::get('/admin',function (){
+   return view('admin.dashboard');
+});
 
 Auth::routes();
 
